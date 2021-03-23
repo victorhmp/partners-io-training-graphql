@@ -1,0 +1,8 @@
+type LiveProductViewsType {
+  slug: Int
+  liveViews: Int
+}
+
+type Query {
+  liveProductViews(productSlug: String): LiveProductViewsType
+}
